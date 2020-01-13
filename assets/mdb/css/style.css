@@ -1,0 +1,2839 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+  .new_arrival .col-lg-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 30, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .col-lg-12 {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+    }
+  }
+  
+  /* line 39, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .new_arrival_iner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* line 43, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .new_arrival_iner .weidth_1 {
+    flex: 39% 0 0;
+    max-width: 39%;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 43, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .new_arrival_iner .weidth_1 {
+      flex: 100% 0 0;
+      max-width: 100%;
+    }
+  }
+  
+  /* line 51, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .new_arrival_iner .weidth_2 {
+    flex: 28% 0 0;
+    max-width: 28%;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 51, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .new_arrival_iner .weidth_2 {
+      flex: 100% 0 0;
+      max-width: 100%;
+    }
+  }
+  
+  /* line 59, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .new_arrival_iner .weidth_3 {
+    flex: 29.25% 0 0;
+    max-width: 29.25%;
+  }
+  
+  @media (max-width: 576px) {
+    /* line 59, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .new_arrival_iner .weidth_3 {
+      flex: 100% 0 0;
+      max-width: 100%;
+    }
+  }
+  
+  /* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item {
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .single_arrivel_item {
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* line 77, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2f7dfc;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    visibility: hidden;
+  }
+  
+  /* line 89, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item img {
+    width: 100%;
+    max-height: 550px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  /* line 94, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text {
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* line 105, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text p {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1;
+  }
+  
+  /* line 110, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text h3 {
+    font-size: 22px;
+    color: #fff;
+    margin: 2px 0 10px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 110, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .single_arrivel_item .hover_text h3 {
+      font-size: 15px;
+      margin: 2px 0 6px;
+    }
+  }
+  
+  /* line 120, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text .rate_icon i {
+    color: #ffe400 !important;
+  }
+  
+  /* line 125, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text h5 {
+    font-size: 20px;
+    color: #fff;
+    margin: 16px 0 24px;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 125, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .single_arrivel_item .hover_text h5 {
+      font-size: 20px;
+      margin: 2px 0 8px;
+    }
+  }
+  
+  /* line 135, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text .social_icon a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 7px;
+  }
+  .new_arrival .single_arrivel_item .hover_text .social_icon button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 7px;
+  }
+  
+  /* line 144, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item .hover_text .social_icon a:hover {
+    background-color: #2f7dfc;
+    color: #fff;
+  }
+  
+  /* line 152, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item:hover:after {
+    opacity: .7;
+    visibility: visible;
+  }
+  
+  /* line 156, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item:hover .hover_text {
+    top: 12%;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  @media (max-width: 991px) {
+    /* line 156, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+    .new_arrival .single_arrivel_item:hover .hover_text {
+      top: 20%;
+    }
+  }
+  
+  /* line 164, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .single_arrivel_item:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* line 169, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .active {
+    position: relative;
+    z-index: 1;
+    color: #2f7dfc;
+  }
+  
+  /* line 173, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_new_arrival.scss */
+  .new_arrival .active:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2f7dfc;
+  }
+  .section_padding {
+    padding: 140px 0px;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 25, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_common.scss */
+    .section_padding {
+      padding: 100px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 25, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_common.scss */
+    .section_padding {
+      padding: 70px 0px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* line 25, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_common.scss */
+    .section_padding {
+      padding: 70px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 25, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_common.scss */
+    .section_padding {
+      padding: 70px 0px;
+    }
+  }
+  /* Feature Product Area css
+============================================================================================ */
+/* line 4, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 8, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-img {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 12, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-img .p_icon {
+  width: 90%;
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: rgba(47, 125, 252, 0.4);
+  transition: all 400ms ease;
+}
+
+/* line 22, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-img .p_icon a {
+  display: inline-block;
+  height: 36px;
+  line-height: 40px;
+  width: 36px;
+  text-align: center;
+  background: #fff;
+  border-radius: 30px;
+  color: #2a2a2a;
+  margin-right: 25px;
+}
+
+/* line 33, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-img .p_icon a:last-child {
+  margin-right: 0px;
+}
+
+/* line 37, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-img .p_icon a:hover {
+  color: #fff;
+  background: #2f7dfc;
+}
+
+/* line 45, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-btm {
+  padding: 22px 25px 18px;
+  border: 1px solid #f0f2f1;
+  text-align: left;
+}
+
+/* line 50, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-btm h4 {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  transition: all 300ms linear 0s;
+}
+
+/* line 59, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-btm h5 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #797979;
+}
+
+/* line 65, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product .product-btm span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #2a2a2a;
+}
+
+/* line 76, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product:hover .product-img .p_icon {
+  bottom: 0px;
+}
+
+/* line 82, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product:hover .product-btm h4 {
+  color: #2f7dfc;
+}
+
+/* End Feature Product Area css
+============================================================================================ */
+/* Start New Product Area css
+============================================================================================ */
+/* line 95, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.new_product {
+  background: #f6f6f6;
+  padding: 90px 15px;
+  text-align: center;
+}
+
+/* line 100, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.new_product .product-img {
+  padding: 90px 0px;
+}
+
+/* line 104, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.new_product h5 {
+  font-size: 20px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+/* line 110, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.new_product h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* line 115, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.new_product h4 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+/* End New Product Area css
+============================================================================================ */
+/* Start Product Area css
+============================================================================================ */
+/* line 128, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_product_inner {
+  margin-bottom: -30px;
+}
+
+/* line 133, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_p_list .media {
+  margin-bottom: 30px;
+}
+
+/* line 136, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_p_list .media .d-flex {
+  padding-right: 20px;
+}
+
+/* line 140, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_p_list .media .media-body {
+  vertical-align: middle;
+  align-self: center;
+}
+
+/* line 144, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_p_list .media .media-body h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #2a2a2a;
+}
+
+/* line 151, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_p_list .media .media-body h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #797979;
+  margin-bottom: 0px;
+}
+
+/* End Feature Product Area css
+============================================================================================ */
+/* Product Sidebar Area css
+============================================================================================ */
+/* line 168, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cat_product_area .btn_2 {
+  border: 1px solid #606060;
+  color: #606060;
+  margin-top: 80px;
+}
+
+/* line 173, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cat_product_area .latest_product_inner {
+  padding-top: 30px;
+}
+
+/* line 176, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cat_product_area .latest_product_inner .single-product {
+  margin-bottom: 50px;
+}
+
+/* line 182, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.sub-menu ul {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  border-top: 1px solid #606060;
+}
+
+/* line 189, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.left_widgets {
+  margin-bottom: 30px;
+}
+
+/* line 192, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.left_widgets:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 197, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.widgets_inner p {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* line 204, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.widgets_inner input[type=checkbox], .widgets_inner input[type=radio] {
+  margin-right: 15px;
+}
+
+/* line 208, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.widgets_inner {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  /* line 208, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .widgets_inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 222, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .l_w_title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* line 230, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.l_w_title h3 {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #2a2a2a;
+  font-weight: 500;
+  line-height: 40px;
+  position: relative;
+  background-color: #e8f0f2;
+  padding: 10px 15px 10px 30px;
+  text-transform: uppercase;
+}
+
+/* line 243, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar {
+  flex-wrap: wrap;
+}
+
+/* line 246, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_bar_single {
+  margin-left: 20px;
+  border-radius: 0;
+}
+
+/* line 249, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_bar_single .nice-select {
+  background-color: #fff;
+  text-transform: capitalize;
+  border: 1px solid #eee;
+  color: #606060;
+  border-radius: 0;
+  padding-left: 30px;
+  padding-right: 70px;
+  border-radius: 0;
+}
+
+/* line 258, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_bar_single .nice-select:after {
+  height: 8px;
+  margin-top: -6px;
+  right: 16px;
+  width: 8px;
+}
+
+/* line 268, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .widgets_inner {
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* line 271, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .widgets_inner:last-child {
+  border-bottom: 0px;
+}
+
+/* line 276, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .list {
+  border-top: 1px solid #ddd;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+/* line 281, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .list:first-child {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: 0px solid transparent;
+}
+
+/* line 287, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .list li {
+  margin-bottom: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 290, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .list li a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #606060;
+  position: relative;
+}
+
+/* line 300, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .list li.active a:before, .p_filter_widgets .list li:hover a:before {
+  background: #2f7dfc;
+  border-color: #2f7dfc;
+}
+
+/* line 307, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_filter_widgets .list li:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 314, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar {
+  clear: both;
+  display: flex;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  /* line 314, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_top_bar {
+    display: block !important;
+  }
+}
+
+/* line 332, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar h2 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  /* line 332, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_top_bar h2 {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 340, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .sorting {
+  display: inline-block;
+  clear: none;
+  border: 1px solid #eeeeee;
+  border-radius: 0px;
+  height: 40px;
+  width: 210px;
+  padding-left: 20px;
+}
+
+/* line 349, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .sorting span {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+}
+
+/* line 355, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .sorting .list {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* line 359, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .sorting .list li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+}
+
+/* line 366, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .sorting:after {
+  content: "\f0d7";
+  font: normal normal normal 14px/1 FontAwesome;
+  transform: rotate(0);
+  border: none;
+  color: #555555;
+  margin-top: -6px;
+  right: 20px;
+}
+
+/* line 377, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .show {
+  clear: none;
+  display: inline-block;
+  clear: none;
+  border: 1px solid #eeeeee;
+  border-radius: 0px;
+  height: 40px;
+  width: 120px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+/* line 388, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .show span {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+}
+
+/* line 394, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .show .list {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* line 398, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .show .list li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #555555;
+}
+
+/* line 405, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .left_dorp .show:after {
+  content: "\f0d7";
+  font: normal normal normal 14px/1 FontAwesome;
+  transform: rotate(0);
+  border: none;
+  color: #555555;
+  margin-top: -6px;
+  right: 20px;
+}
+
+@media (max-width: 576px) {
+  /* line 417, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_top_bar .single_product_menu {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 432, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu p {
+  color: #020202;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  /* line 432, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_top_bar .single_product_menu p {
+    font-size: 13px;
+    line-height: 13px;
+  }
+}
+
+/* line 448, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu p span {
+  color: #2f7dfc;
+}
+
+/* line 453, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu h5 {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+/* line 460, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .nice-select {
+  height: 0;
+  border: 0px;
+  line-height: 15px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+/* line 467, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .nice-select:after {
+  margin-top: 0;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #999;
+  right: 0px;
+}
+
+/* line 475, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .top_pageniation {
+  line-height: 15px;
+}
+
+/* line 478, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .top_pageniation ul {
+  margin-left: 20px;
+}
+
+/* line 481, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .top_pageniation ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 489, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .input-group {
+  width: 150px;
+}
+
+/* line 492, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .input-group .form-control {
+  border: 0px solid transparent;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* line 500, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu .input-group .input-group-text {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 509, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.most_p_withoutbox {
+  padding-bottom: 120px;
+}
+
+/* line 513, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.range_item p {
+  margin-bottom: 0;
+}
+
+/* line 517, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.price_value input {
+  border: 0px;
+  text-align: center;
+  max-width: 30px;
+  background-color: transparent;
+}
+
+/* line 524, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.price_value {
+  align-items: center;
+}
+
+/* line 528, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.irs-to,
+.irs-from,
+.irs-max,
+.irs-min {
+  display: none;
+}
+
+/* line 537, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.price_rangs_aside .l_w_title h3 {
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+
+/* line 544, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.irs-bar {
+  height: 6px;
+  top: 33px;
+  border-top: 1px solid #ff3368;
+  border-bottom: 1px solid #ff3368;
+  background: #ff3368;
+  background: linear-gradient(to top, #ff3368 0%, #ff3368 100%);
+}
+
+/* line 553, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.irs-line {
+  height: 6px;
+  top: 33px;
+  background: #e8eff1;
+  background: linear-gradient(to bottom, #e8eff1 -50%, #e8eff1 150%);
+  border: 1px solid #e8eff1;
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+}
+
+/* line 563, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.irs-slider {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #ff3368;
+  background-color: #ff3368;
+  background: linear-gradient(to bottom, #ff3368 0%, #ff3368 20%, #ff3368 100%);
+  top: 28px;
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  /* line 572, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_bar_item {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 578, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_top_bar {
+    margin-top: 70px;
+  }
+  /* line 580, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_top_bar h2 {
+    font-size: 25px;
+  }
+  /* line 584, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_bar_single {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+  /* line 588, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_bar_single .nice-select {
+    padding-left: 15px;
+    padding-right: 35px;
+  }
+}
+
+/* End Product Sidebar Area css
+============================================================================================ */
+/* Single Product Area css
+============================================================================================ */
+/* line 603, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_img .carousel {
+  position: relative;
+}
+
+/* line 606, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_img .carousel .carousel-indicators {
+  margin: 0px;
+  right: 20px;
+  width: auto;
+  left: auto;
+  bottom: 30px;
+}
+
+/* line 613, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_img .carousel .carousel-indicators li {
+  height: 60px;
+  width: 60px;
+  background: transparent;
+  text-indent: 0;
+  margin-right: 10px;
+  position: relative;
+}
+
+/* line 621, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_img .carousel .carousel-indicators li:after {
+  display: none;
+}
+
+/* line 625, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_img .carousel .carousel-indicators li:before {
+  content: "";
+  background: rgba(197, 50, 45, 0.8);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+/* line 637, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_img .carousel .carousel-indicators li.active:before {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  /* line 646, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .s_product_text {
+    margin-top: 30px;
+  }
+}
+
+/* line 660, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text h5 {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  /* line 660, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .s_product_text h5 {
+    margin-bottom: 15px;
+  }
+}
+
+/* line 678, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text h5 span {
+  margin: 0 10px;
+}
+
+/* line 683, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+/* line 690, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2f7dfc;
+  margin-bottom: 15px;
+}
+
+/* line 698, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li {
+  margin-bottom: 5px;
+}
+
+/* line 701, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li a {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #555555;
+}
+
+/* line 707, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li a span {
+  width: 90px;
+  display: inline-block;
+}
+
+/* line 711, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li a span:hover {
+  color: #555;
+}
+
+/* line 716, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li a.active {
+  color: #2f7dfc;
+}
+
+/* line 719, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li a.active span {
+  color: #555;
+}
+
+/* line 725, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .list li:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 731, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text p {
+  padding-top: 20px;
+  border-top: 1px dotted #d5d5d5;
+  margin: 20px 0;
+}
+
+/* line 738, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .card_area .main_btn {
+  line-height: 38px;
+  padding: 0px 38px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/* line 745, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .card_area .icon_btn {
+  margin-right: 10px;
+  background: #f6f6f6;
+  border-radius: 3px;
+  color: #2a2a2a;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  padding: 0px 13px;
+  font-size: 14px;
+}
+
+/* line 756, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .card_area .icon_btn:hover {
+  background: #fff;
+  box-shadow: -14.142px 14.142px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* line 765, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .product_count {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+/* line 771, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .product_count input {
+  width: 76px;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+/* line 778, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .product_count .input-number-increment {
+  position: absolute;
+  right: 0;
+  top: -7px;
+  padding: 10px;
+  border-left: 1px solid #dddddd;
+  display: inline-block;
+}
+
+/* line 786, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .product_count .input-number-increment:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 7px;
+  width: 100%;
+  height: 1px;
+  background-color: #dddddd;
+}
+
+/* line 798, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .product_count .input-number-decrement {
+  position: absolute;
+  right: 0;
+  bottom: -9px;
+  padding: 10px;
+  border-left: 1px solid #dddddd;
+  display: inline-block;
+}
+
+@media (max-width: 576px) {
+  /* line 808, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .cart_area .media {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 813, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .cart_area .media {
+    display: block;
+  }
+}
+
+/* line 820, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area {
+  padding-bottom: 120px;
+  margin-top: 60px;
+}
+
+@media (max-width: 991px) {
+  /* line 820, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_description_area {
+    margin-top: 0px;
+    padding-bottom: 70px;
+  }
+}
+
+/* line 830, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .nav.nav-tabs {
+  display: block;
+  border: none;
+  padding: 10px 0px;
+}
+
+/* line 835, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .nav.nav-tabs li {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+/* line 839, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .nav.nav-tabs li:last-child {
+  margin-right: 0px;
+}
+
+/* line 843, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .nav.nav-tabs li a {
+  padding: 0px;
+  border: none;
+  line-height: 38px;
+  background: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 0px;
+  padding: 0px 30px;
+  color: #2a2a2a;
+  font-size: 13px;
+  font-weight: normal;
+  border-radius: 50px;
+}
+
+@media (max-width: 991px) {
+  /* line 843, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .product_description_area .nav.nav-tabs li a {
+    padding: 0px 20px;
+    margin-bottom: 10px;
+  }
+}
+
+/* line 862, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .nav.nav-tabs li a.active {
+  background: #2f7dfc;
+  color: #fff;
+  border-color: #2f7dfc;
+}
+
+/* line 871, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content {
+  padding-top: 30px;
+}
+
+/* line 876, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .box_total {
+  background: #f4f4f4;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+/* line 882, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .box_total h4 {
+  color: #2f7dfc;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 888, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .box_total h5 {
+  color: #2a2a2a;
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+/* line 894, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .box_total h6 {
+  color: #2a2a2a;
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 903, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .rating_list {
+  margin-bottom: 30px;
+}
+
+/* line 906, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .rating_list h3 {
+  font-size: 18px;
+  color: #2a2a2a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 916, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .rating_list .list li a {
+  font-size: 14px;
+  color: #797979;
+}
+
+/* line 920, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .rating_list .list li a i {
+  color: #fbd600;
+}
+
+/* line 928, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .rating_list .list li:nth-child a i:last-child {
+  color: #eeeeee;
+}
+
+/* line 939, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .table {
+  margin-bottom: 0px;
+}
+
+/* line 944, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .table tbody tr td {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+/* line 950, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .table tbody tr td h5 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #797979;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+/* line 961, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .table tbody tr:first-child td {
+  border-top: 0px;
+}
+
+/* line 973, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item {
+  margin-bottom: 35px;
+}
+
+/* line 976, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 980, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item p {
+  color: #797979;
+}
+
+/* line 984, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media {
+  position: relative;
+}
+
+/* line 987, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .d-flex {
+  padding-right: 15px;
+}
+
+/* line 991, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .media-body {
+  vertical-align: middle;
+  align-self: center;
+}
+
+/* line 995, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .media-body h4 {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #2a2a2a;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+}
+
+/* line 1003, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .media-body i {
+  color: #fbd600;
+}
+
+/* line 1007, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .media-body h5 {
+  font-size: 13px;
+  font-weight: normal;
+  color: #797979;
+}
+
+/* line 1013, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .media-body .reply_btn {
+  border: 1px solid #e0e0e0;
+  padding: 0px 28px;
+  display: inline-block;
+  line-height: 32px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #2a2a2a;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+}
+
+/* line 1026, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item .media .media-body .reply_btn:hover {
+  background: #2f7dfc;
+  border-color: #2f7dfc;
+  color: #fff;
+}
+
+/* line 1035, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item p {
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* line 1040, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_item.reply {
+  padding-left: 28px;
+}
+
+/* line 1046, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box h4 {
+  font-size: 24px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* line 1053, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box p {
+  margin-bottom: 0px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+/* line 1059, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box .list {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 1064, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box .list li {
+  display: inline-block;
+}
+
+/* line 1067, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box .list li a {
+  display: inline-block;
+  color: #fbd600;
+}
+
+/* line 1074, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box .form-control {
+  height: 50px;
+  border-radius: 0;
+}
+
+/* line 1078, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box ::placeholder {
+  font-size: 14px;
+}
+
+/* line 1081, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box .btn_3 {
+  padding: 13px 39px;
+}
+
+/* line 1084, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.review_box .contact_form {
+  margin-top: 15px;
+}
+
+/* End Single Product Area css
+============================================================================================ */
+/* Cart Area css
+============================================================================================ */
+/* line 1100, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 1106, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table thead tr th {
+  border-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  border-bottom: 0px !important;
+}
+
+/* line 1119, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+  align-self: center;
+}
+
+/* line 1126, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .media .d-flex {
+  padding-right: 30px;
+}
+
+/* line 1129, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .media .d-flex img {
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  max-width: 150px;
+}
+
+/* line 1136, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .media .media-body {
+  vertical-align: middle;
+  align-self: center;
+}
+
+/* line 1140, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .media .media-body p {
+  margin-bottom: 0px;
+}
+
+/* line 1146, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td h5 {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px;
+}
+
+/* line 1153, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .product_count {
+  margin-bottom: 0px;
+}
+
+/* line 1156, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .product_count input {
+  width: 100px;
+  padding-left: 30px;
+  height: 50px;
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 1164, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .product_count .increase {
+  top: -2px;
+}
+
+/* line 1167, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .product_count .increase:before {
+  content: "";
+  height: 40px;
+  width: 1px;
+  position: absolute;
+  left: -3px;
+  top: 0px;
+  background: #eeeeee;
+}
+
+/* line 1177, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .product_count .increase:after {
+  content: "";
+  height: 1px;
+  width: 30px;
+  position: absolute;
+  left: -3px;
+  top: 22px;
+  background: #eeeeee;
+}
+
+/* line 1188, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr td .product_count .reduced {
+  bottom: -6px;
+}
+
+/* line 1195, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.bottom_button .gray_btn {
+  line-height: 38px;
+  background: #f6f6f6;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  padding: 0px 40px;
+  display: inline-block;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 1208, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.bottom_button td:last-child {
+  width: 60px;
+}
+
+/* line 1212, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text {
+  margin-left: -446px;
+}
+
+/* line 1215, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text input {
+  width: 200px;
+  padding: 0px 15px;
+  border-radius: 3px;
+  border: 1px solid #eeeeee;
+  height: 40px;
+  font-size: 14px;
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin-right: -3px;
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 65, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text input.placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text input:-moz-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 71, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text input::-moz-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 74, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 1237, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text .main_btn {
+  height: 40px;
+  line-height: 38px;
+  text-transform: uppercase;
+  padding: 0px 38px;
+  margin-right: -3px;
+}
+
+/* line 1245, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.bottom_button td .cupon_text .gray_btn {
+  padding: 0px 40px;
+}
+
+/* line 1254, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area td:nth-child(3) {
+  vertical-align: top;
+}
+
+/* line 1259, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box {
+  margin-left: -250px;
+  text-align: right;
+}
+
+/* line 1264, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li {
+  margin-bottom: 12px;
+  color: #606060;
+}
+
+/* line 1267, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li input {
+  margin-left: 10px;
+}
+
+/* line 1270, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 1274, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li a {
+  padding-right: 30px;
+  font-size: 14px;
+  color: #797979;
+  position: relative;
+}
+
+/* line 1280, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li a:before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  border: 1px solid #cdcdcd;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 1293, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li a:after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #2f7dfc;
+  display: inline-block;
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+/* line 1310, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li.active a:after {
+  opacity: 1;
+}
+
+/* line 1318, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box h6 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #2a2a2a;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 1326, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box h6 i {
+  color: #797979;
+  padding-left: 5px;
+}
+
+/* line 1332, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .shipping_select {
+  display: block;
+  width: 100%;
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+/* line 1341, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .shipping_select .list {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* line 1345, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.shipping_area .shipping_box .shipping_select .list li {
+  font-size: 14px;
+  font-weight: normal;
+  color: #797979;
+}
+
+/* line 1356, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.out_button_area .checkout_btn_inner {
+  margin-left: -388px;
+}
+
+/* line 1359, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_inner .table tbody tr.out_button_area .checkout_btn_inner .main_btn {
+  height: 40px;
+  padding: 0px 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+/* line 1372, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.gray_btn {
+  line-height: 38px;
+  background: #f6f6f6;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  padding: 0px 40px;
+  display: inline-block;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* End Cart Area css
+============================================================================================ */
+/* End Cart Area css
+============================================================================================ */
+/* line 1391, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.checkout_area p {
+  font-size: 14px;
+}
+
+/* line 1395, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.checkout_area .form-control {
+  font-size: 14px;
+  height: 40px;
+}
+
+/* line 1400, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.checkout_area .form-control {
+  border: 1px solid #eee;
+}
+
+/* line 1403, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.checkout_area .form-control :focus {
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 1412, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.checkout_area .form-control .form-control input {
+  height: 50px;
+}
+
+/* line 1420, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.post_code {
+  display: block;
+  width: 100%;
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 8px 15px;
+}
+
+/* line 1430, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.check_title h2 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  background: #f4f4f4;
+  line-height: 40px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  /* line 1430, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .check_title h2 {
+    line-height: 17px;
+    padding: 12px;
+  }
+}
+
+/* line 1443, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.check_title h2 a {
+  color: #2f7dfc;
+  text-decoration: underline;
+}
+
+/* line 1451, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer p {
+  margin-top: 15px;
+  padding-left: 30px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+  /* line 1451, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .returning_customer p {
+    padding-left: 0;
+  }
+}
+
+/* line 1461, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form {
+  max-width: 710px;
+  margin-left: 15px;
+}
+
+@media (max-width: 991px) {
+  /* line 1461, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .returning_customer .contact_form {
+    margin-left: -15px;
+  }
+}
+
+/* line 1467, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form .form-group {
+  margin-bottom: 20px;
+}
+
+/* line 1470, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form .form-group input {
+  border: 1px solid #eeeeee;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 65, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.returning_customer .contact_form .form-group input.placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.returning_customer .contact_form .form-group input:-moz-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 71, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.returning_customer .contact_form .form-group input::-moz-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 74, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.returning_customer .contact_form .form-group input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 1487, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form .form-group .submit_btn {
+  margin-top: 0px;
+}
+
+/* line 1491, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form .form-group .creat_account {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* line 1495, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form .form-group .creat_account input {
+  height: auto;
+  margin-right: 10px;
+}
+
+/* line 1501, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.returning_customer .contact_form .form-group .lost_pass {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #797979;
+  font-weight: normal;
+}
+
+/* line 1513, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_star {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 1518, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_star input {
+  background: #fff;
+}
+
+/* line 1525, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_star input:focus + .placeholder {
+  display: none;
+}
+
+/* line 1529, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_star .placeholder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+  z-index: 1;
+}
+
+/* line 1537, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_star .placeholder::before {
+  content: attr(data-placeholder);
+  color: #777;
+}
+
+/* line 1542, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.p_star .placeholder::after {
+  content: " *";
+  color: tomato;
+}
+
+/* line 1547, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cupon_area {
+  margin-bottom: 40px;
+}
+
+/* line 1550, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cupon_area input {
+  margin-left: 30px;
+  max-width: 730px;
+  width: 100%;
+  display: block;
+  height: 40px;
+  border-radius: 3px;
+  padding: 0px 15px;
+  border: 1px solid #eeeeee;
+  outline: none;
+  box-shadow: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  /* line 1550, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .cupon_area input {
+    margin-left: 0;
+  }
+}
+
+/* line 1569, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cupon_area .tp_btn {
+  margin-left: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 1569, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .cupon_area .tp_btn {
+    margin-left: 0;
+  }
+}
+
+/* line 1577, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tp_btn {
+  border: 1px solid #eeeeee;
+  display: inline-block;
+  line-height: 38px;
+  padding: 0px 40px;
+  color: #2a2a2a;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+/* line 1588, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tp_btn:hover {
+  background: #2f7dfc;
+  color: #fff;
+  border-color: #2f7dfc;
+}
+
+/* line 1596, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details h3 {
+  font-size: 18px;
+  color: #2a2a2a;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* line 1604, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group {
+  margin-bottom: 20px;
+}
+
+/* line 1607, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group input {
+  border-radius: 3px;
+  color: #797979;
+}
+
+/* line 65, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.billing_details .contact_form .form-group input.placeholder {
+  color: #797979;
+}
+
+/* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.billing_details .contact_form .form-group input:-moz-placeholder {
+  color: #797979;
+}
+
+/* line 71, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.billing_details .contact_form .form-group input::-moz-placeholder {
+  color: #797979;
+}
+
+/* line 74, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.billing_details .contact_form .form-group input::-webkit-input-placeholder {
+  color: #797979;
+}
+
+/* line 1616, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group textarea {
+  height: 150px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+/* line 1622, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .country_select {
+  width: 100%;
+}
+
+/* line 1625, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .country_select span {
+  color: #797979;
+}
+
+/* line 1629, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .country_select .list {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* line 1633, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .country_select .list li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 1642, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .creat_account #f-option2 {
+  margin-right: 5px;
+}
+
+/* line 1646, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .creat_account #f-option3 {
+  margin-right: 5px;
+}
+
+/* line 1650, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .creat_account a {
+  color: #2f7dfc;
+}
+
+/* line 1658, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box {
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+/* line 1662, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box h2 {
+  border-bottom: 1px solid #dddddd;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2a2a2a;
+  padding-bottom: 15px;
+}
+
+/* line 1672, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list li a {
+  font-size: 14px;
+  color: #797979;
+  font-weight: normal;
+  border-bottom: 1px solid #eeeeee;
+  display: block;
+  line-height: 42px;
+}
+
+/* line 1680, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list li a span {
+  float: right;
+}
+
+/* line 1684, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list li a .middle {
+  float: none;
+  width: 50px;
+  text-align: right;
+  display: inline-block;
+  margin-left: 30px;
+  color: #2a2a2a;
+}
+
+/* line 1696, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list li:nth-child(4) a .middle {
+  margin-left: 48px;
+}
+
+/* line 1706, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list_2 li a {
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 500;
+}
+
+/* line 1711, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list_2 li a span {
+  color: #797979;
+  text-transform: capitalize;
+}
+
+/* line 1719, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .list_2 li:last-child a span {
+  color: #2a2a2a;
+}
+
+/* line 1728, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .payment_item h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 500;
+  padding-left: 22px;
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* line 1738, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .payment_item h4:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #cdcdcd;
+  background: #fff;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 1752, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .payment_item h4:after {
+  content: "";
+  height: 4px;
+  width: 4px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+
+/* line 1764, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .payment_item h4 img {
+  padding-left: 60px;
+}
+
+/* line 1769, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .payment_item p {
+  background: #fff;
+  padding: 20px;
+}
+
+/* line 1776, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .payment_item.active h4:before {
+  background: #2f7dfc;
+  border-color: #2f7dfc;
+}
+
+/* line 1784, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .creat_account {
+  margin: 15px 0;
+}
+
+/* line 1787, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .creat_account label {
+  padding-left: 10px;
+  font-size: 12px;
+  color: #2a2a2a;
+}
+
+/* line 1793, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .creat_account a {
+  color: #2f7dfc;
+}
+
+/* line 1798, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .btn_3 {
+  display: block;
+  line-height: 38px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  /* line 1798, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .order_box .btn_3 {
+    padding: 9px 34px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 1798, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .order_box .btn_3 {
+    padding: 9px 34px;
+  }
+}
+
+/* End Cart Area css
+============================================================================================ */
+/* Tracking Form Area css
+============================================================================================ */
+/* line 1820, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tracking_box_area .tracking_box_inner p {
+  max-width: 870px;
+  color: #2a2a2a;
+  margin-bottom: 25px;
+}
+
+/* line 1826, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tracking_box_area .tracking_box_inner .tracking_form {
+  max-width: 645px;
+}
+
+/* line 1829, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group {
+  margin-bottom: 30px;
+}
+
+/* line 1831, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input {
+  height: 40px;
+  border: 1px solid #eee;
+  padding: 0px 15px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 14px;
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 65, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input.placeholder {
+  font-size: 14px;
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input:-moz-placeholder {
+  font-size: 14px;
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 71, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input::-moz-placeholder {
+  font-size: 14px;
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 74, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #797979;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+/* line 1851, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 1855, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.tracking_box_area .tracking_box_inner .tracking_form .form-group .btn_3 {
+  box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+}
+
+/* End Tracking Form Area css
+============================================================================================ */
+/* line 1866, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+/* line 1871, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* line 1876, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn img {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+}
+
+/* line 1883, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn label {
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  padding: 0px 25px 21px 25px;
+  height: 14px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #2a2a2a;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+
+/* line 1901, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn .check {
+  display: block;
+  position: absolute;
+  border: 1px solid #cdcdcd;
+  border-radius: 100%;
+  height: 14px;
+  width: 14px;
+  top: 5px;
+  left: 0px;
+  background: #fff;
+  z-index: 5;
+  transition: border 0.25s linear;
+  -webkit-transition: border 0.25s linear;
+}
+
+/* line 1916, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn .check::before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 4px;
+  width: 4px;
+  top: 4px;
+  left: 4px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+/* line 1930, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn input[type="radio"]:checked ~ .check {
+  border: 1px solid #2f7dfc;
+  background: #2f7dfc;
+}
+
+/* line 1935, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn input[type="radio"]:checked ~ .check::before {
+  background: #fff;
+}
+
+/* line 1939, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.radion_btn input[type="radio"]:checked ~ label {
+  color: #000;
+}
+
+/* line 1943, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text, .login_part .login_part_form {
+  padding: 80px 70px;
+  height: 600px;
+  display: table;
+}
+
+@media (max-width: 991px) {
+  /* line 1943, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .login_part .login_part_text, .login_part .login_part_form {
+    padding: 30px;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 1943, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .login_part .login_part_text, .login_part .login_part_form {
+    padding: 20px;
+    height: 400px;
+  }
+}
+
+/* line 1955, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text .login_part_text_iner, .login_part .login_part_text .login_part_form_iner, .login_part .login_part_form .login_part_text_iner, .login_part .login_part_form .login_part_form_iner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 1960, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text {
+  background-image: -moz-linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+  background-image: -webkit-linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+  background-image: -ms-linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+  background-size: 200% auto;
+}
+
+/* line 1965, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 17px;
+}
+
+/* line 1972, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text p {
+  color: #fff;
+  line-height: 25px;
+}
+
+/* line 1976, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text .btn_3 {
+  border: 1px solid #ffc2d2;
+  background-color: transparent;
+  font-size: 14px;
+  margin-top: 28px;
+}
+
+/* line 1981, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_text .btn_3:hover {
+  background-color: #fff;
+  color: #2f7dfc;
+}
+
+@media (max-width: 991px) {
+  /* line 1987, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .login_part .login_part_form {
+    padding: 0;
+  }
+}
+
+/* line 1991, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_form h3 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+  /* line 1991, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .login_part .login_part_form h3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 1991, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .login_part .login_part_form h3 {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 2003, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_form .form-control {
+  border: 0px solid transparent;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0;
+}
+
+/* line 2007, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_form .form-control ::placeholder {
+  color: #c3c3c3;
+}
+
+/* line 2013, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .creat_account {
+  margin-top: 11px;
+}
+
+/* line 2015, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .creat_account label {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+/* line 2023, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .form-group .btn_3 {
+  display: block;
+  width: 100%;
+  margin: 30px 0 17px;
+}
+
+/* line 2029, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .lost_pass {
+  color: #777777;
+  text-align: right;
+  float: right;
+  text-transform: capitalize;
+}
+
+/* line 2037, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.lSSlideOuter .lSPager.lSGallery img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  padding: 5px;
+}
+
+/* line 2044, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .card_area {
+  padding: 20px 0;
+}
+
+/* line 2047, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .card_area .product_count input {
+  border: 0px solid transparent;
+  text-align: center;
+}
+
+/* line 2053, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .product_count {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+}
+
+/* line 2061, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .product_count .input-number {
+  display: inline-block;
+  width: 60px;
+}
+
+@media (max-width: 576px) {
+  /* line 2061, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .s_product_text .product_count .input-number {
+    width: 30px;
+  }
+}
+
+/* line 2078, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .Wishlist {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 3162px;
+  z-index: 365;
+}
+
+/* line 2086, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .add_to_cart {
+  margin: 25px 0;
+}
+
+/* line 2090, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .like_us {
+  border-radius: 50%;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #7f7f7f;
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+  box-shadow: -14.142px 14.142px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* line 2101, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .like_us:hover {
+  background-color: #2f7dfc;
+  color: #fff;
+}
+
+/* line 2106, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .btn_3 {
+  padding: 13px 36px;
+}
+
+/* line 2108, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.s_product_text .btn_3:hover {
+  color: #2f7dfc;
+  background-color: #fff;
+  box-shadow: -14.142px 14.142px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #fff;
+}
+
+@media (max-width: 576px) {
+  /* line 2106, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+  .s_product_text .btn_3 {
+    padding: 13px 20px;
+  }
+}
+
+/* line 2129, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.lslide {
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 2134, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.lSPager .lSGallery {
+  margin-top: 20px;
+}
+
+/* line 2138, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.card_area .social_icon {
+  margin-top: 40px;
+}
+
+/* line 2140, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.card_area .social_icon a {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #3b5998;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  margin-right: 15px;
+}
+
+/* line 2150, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.card_area .social_icon a:hover {
+  background-color: #2f7dfc;
+}
+
+/* line 2155, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.card_area .social_icon .tw {
+  background-color: #55acee;
+}
+
+/* line 2158, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.card_area .social_icon .li {
+  background-color: #0077b5;
+}
+
+/* line 2164, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .btn_1 {
+  border: 1px solid transparent;
+}
+
+/* line 2167, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.cart_area .btn_1:hover {
+  border: 1px solid #2f7dfc !important;
+}
+.s_product_text .add_to_cart {
+  margin: 25px 0;
+}
+/* line 24, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_1 {
+  display: inline-block;
+  padding: 19px 61px;
+  background-color: #2f7dfc;
+  font-size: 15px;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+/* line 34, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_1:hover {
+  background-color: #fff;
+  color: #2f7dfc;
+}
+
+/* line 39, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_3 {
+  display: inline-block;
+  padding: 9px 42px;
+  border-radius: 50px;
+  background-color: #2f7dfc;
+  border: 1px solid #f4f4f4;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: 1px solid #2f7dfc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 52, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_3:hover {
+  background-color: red;
+  color: #fff;
+}
+
+/* line 57, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_2 {
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+  color: #1e1e1e;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+}
+
+/* line 72, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_2:hover {
+  color: #fff !important;
+  background-color: #2f7dfc;
+}
+
+@media (max-width: 991px) {
+  /* line 57, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+  .btn_2 {
+    height: 50px;
+    width: 140px;
+    line-height: 50px;
+  }
+}
+
+/* line 87, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_4 {
+  color: #2f7dfc;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 53px;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  /* line 87, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+  .btn_4 {
+    margin-top: 30px;
+  }
+}
+
+/* line 100, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+.btn_4 img {
+  width: 20px;
+  margin-left: 15px;
+}
